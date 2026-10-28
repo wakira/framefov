@@ -1,0 +1,9 @@
+/* Only the loader negotiation entry point is exported.
+ * Everything else is internal (framefov_*) and reached through the
+ * GetProcAddr functions returned to the loader. */
+{
+  global:
+    vkNegotiateLoaderLayerInterfaceVersion;
+  local:
+    *;
+};

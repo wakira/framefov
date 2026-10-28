@@ -1,0 +1,13 @@
+{
+  "file_format_version": "1.2.0",
+  "layer": {
+    "name": "VK_LAYER_FRAMEFOV_foveation",
+    "type": "GLOBAL",
+    "library_path": "@FRAMEFOV_LIBRARY_PATH@",
+    "api_version": "1.4.309",
+    "implementation_version": "1",
+    "description": "Steam Frame foveated rendering (VRS injection)",
+    "enable_environment": { "FRAMEFOV_ENABLE": "1" },
+    "disable_environment": { "FRAMEFOV_DISABLE": "1" }
+  }
+}

@@ -1,0 +1,60 @@
+# Build outputs
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+*.ninja
+.ninja_*
+compile_commands.json
+
+# Nix
+result
+result-*
+.direnv/
+
+# Runtime state and logs
+*.log
+logs/
+test-state/
+test-config/
+test-config-standalone/
+
+# Local configuration and secrets
+.env
+.env.*
+*.local
+settings.ini
+secrets/
+*.pem
+*.key
+
+# Object files and binaries
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.dll
+
+# Debug / crash dumps
+core
+core.*
+vgcore.*
+.gdb_history
+.lldb_history
+
+# Editor and OS files
+.idea/
+.vscode/
+.clangd/
+.cache/
+__pycache__/
+*.pyc
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
